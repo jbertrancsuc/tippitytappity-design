@@ -20,4 +20,14 @@ classDiagram
         + add_badge(title: string)
         + get_badges() vector~string~
   }
+
+ class Test{
+        - length: integer
+        - speed: double
+        - accuracy: double
+        - user: string
+        - testType : string
+  }
+
+calss Res
 ```
